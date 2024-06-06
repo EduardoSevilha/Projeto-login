@@ -62,7 +62,7 @@ main{
     width: 99%;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid rgb(112, 31, 31);
+    border: 3px solid rgb(112, 31, 31);
     margin: 5px 0px;
     color: white;
     display: block;
@@ -74,8 +74,7 @@ form label{
 }
 
 .campo > span{
-    
-    font-size: 2em;
+    font-size: 1.5em;
     height: 40px;
     padding: 5px;
 }
@@ -84,12 +83,12 @@ form label{
     color: white;
     background-color: rgba(172, 92, 92, 0.479);
     font-size: 1em;
-    width: calc(100% - 47px);
+    width: calc(100% - 39px);
     height: 100%;
     border: none;
     border-radius: 10px;
     padding: 6px;
-    transform: translateY(-12px);
+    transform: translateY(-5px);
 }
 
 .campo > input:focus-within{
