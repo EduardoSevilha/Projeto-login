@@ -24,12 +24,16 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem{
