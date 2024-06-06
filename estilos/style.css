@@ -23,7 +23,6 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -32,6 +31,7 @@ main{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
+    transform: translate(-50%, -50%);
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
 }
@@ -59,9 +59,10 @@ main{
 }
 
 .campo{
-    width: 100%;
+    width: 99%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(112, 31, 31);
     margin: 5px 0px;
     color: white;
     display: block;
@@ -72,10 +73,33 @@ form label{
     display: none;
 }
 
+.campo > span{
+    
+    font-size: 2em;
+    height: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    color: white;
+    background-color: rgba(172, 92, 92, 0.479);
+    font-size: 1em;
+    width: calc(100% - 47px);
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    transform: translateY(-12px);
+}
+
+.campo > input:focus-within{
+    background-color: white;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 50%;
+    width: 70%;
     height: 30px;
     margin-top: 8px;
     background-color: rgb(236, 163, 68);
@@ -95,7 +119,7 @@ form > input[type=submit]:hover{
     text-align: center;
     font-size: 1em;
     padding-top: 5px;
-    width: 50%;
+    width: 70%;
     height: 35px;
     background-color: white;
     color: darkblue;
