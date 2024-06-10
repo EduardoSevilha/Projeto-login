@@ -80,7 +80,7 @@ form label{
 }
 
 .campo > input{
-    color: white;
+    color: black;
     background-color: rgba(172, 92, 92, 0.479);
     font-size: 1em;
     width: calc(100% - 39px);
